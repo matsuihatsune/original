@@ -1,0 +1,35 @@
+nav{
+    background-color: #cfe7ea;
+   display: flex;
+}
+li{
+text-decoration: none;}
+
+body{
+   
+    margin: 0 auto;
+}
+
+.top{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.shigatabi{
+    width: 30%;
+    padding-top: 200px;
+}
+
+.shigatabi img{
+    width: 100%;
+}
+
+.topphoto{
+    width: 70%;
+}
+
+.topphoto img{
+    width: 100%;
+}
