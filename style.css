@@ -1,9 +1,39 @@
 nav{
     background-color: #cfe7ea;
    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+    
+    
+    
 }
-li{
-text-decoration: none;}
+nav a{
+    
+    text-decoration: none;
+   margin-left:  90px;
+    margin-right: 90px;
+    font-size: 40px;
+    color: #646667;
+    
+    
+}
+
+nav a:hover{
+    border-bottom: solid 10px #7bb8bf;
+}
+nav li{
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+}
+
 
 body{
    
@@ -12,14 +42,14 @@ body{
 
 .top{
     display: flex;
-    margin: 0 auto;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 0;
 }
 .shigatabi{
-    width: 30%;
-    padding-top: 200px;
+    width: 20%;
+    padding-top: 280px;
+    padding-left: 10%;
 }
 
 .shigatabi img{
@@ -32,4 +62,138 @@ body{
 
 .topphoto img{
     width: 100%;
+}
+
+.about{
+    text-align: center;
+    font-family: kozuka-mincho-pro,serif;
+font-weight: 100;
+font-style: normal;
+}
+
+ h1{
+    font-size: 50px;
+     text-align: center;
+     font-family: kozuka-mincho-pro,serif;
+font-weight: 100;
+font-style: normal;
+}
+.about p{
+    font-size: 25px;
+    line-height: 90px;
+}
+
+.spot{
+    padding-top:100px;
+    text-align: center;
+}
+
+.spotpmap{
+   padding-left: 30px;
+     padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.spotphoto{
+    width: 29%;
+     padding-top: 100px;
+}
+.spotphoto img{
+    width: 100%;
+    text-align: center;
+}
+.spotphoto img{
+    width: 100%;
+}
+
+.hieizan,.metasekoiya,.kougaonsen{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+h2{
+    font-size:27px;
+    font-family: kozuka-mincho-pro,serif;
+font-weight: 100;
+font-style: normal;
+    
+}
+
+.plan{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    
+}
+
+.minami,.kita{
+    width: 100%;
+   
+     
+}
+.dai{
+    width: 20%;
+    padding-top: 100px;
+}
+.dai img{
+    width: 100%;
+   
+}
+
+.chizu{
+    width: 100%;
+}
+.chizu img{
+    width: 100%;
+}
+
+.jikan{
+    width: 100%;
+    padding-top: 80px;
+    
+   
+}
+
+.jikan img{
+    width: 20%;
+}
+
+.access{
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.access img{
+    width:100%;
+}
+
+.sns{
+    
+  
+    font-size: 40px;
+    color: #646667;
+   display: flex;
+    background-color: #cfe7ea;
+    text-align: center;
+    justify-content: center;
+    
+    
+
+}
+
+.sns a{
+     text-decoration: none;
+}
+
+.sns p{
+  color: #646667;  
+    margin-left:  90px;
+    margin-right: 90px;
+    font-size: 30px;
+    font-family: kozuka-mincho-pro,serif;
+font-weight: 100;
+    
 }
